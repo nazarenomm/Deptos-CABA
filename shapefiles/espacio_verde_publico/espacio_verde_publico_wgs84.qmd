@@ -1,0 +1,101 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.30.2-'s-Hertogenbosch">
+  <identifier>espacio_verde_publico</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>Espacios Verdes Públicos de la Ciudad de Buenos Aires</title>
+  <abstract>Espacios Verdes Públicos de la Ciudad Autónoma de Buenos Aires que incluyen Plazas, Plazoletas, Parques, Canteros, Jardines y Patios Recreativos de índole pública. Se excluyen los que se encuentran dentro de parcelas de uso privado.
+
+
+
+REQUIRED: A brief narrative summary of the data set.
+
+REQUIRED: A summary of the intentions with which the data set was developed.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>Ciudad Autónoma de Buenos Aires</keyword>
+    <keyword>Espacios Verdes</keyword>
+    <keyword>Plazas</keyword>
+    <keyword>Plazoletas</keyword>
+    <keyword>Parques</keyword>
+    <keyword>Canteros</keyword>
+    <keyword>Espacio Público</keyword>
+    <keyword>Recreación</keyword>
+    <keyword>Espacios recreativos</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Espacios Verdes</keyword>
+    <keyword>Plazas</keyword>
+    <keyword>Plazoletas</keyword>
+    <keyword>Parques</keyword>
+    <keyword>Canteros</keyword>
+    <keyword>Espacio Público</keyword>
+    <keyword>Recreación</keyword>
+    <keyword>Espacios recreativos</keyword>
+    <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>Av. Martín García 346 2º Piso</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <administrativearea>Ciudad Autónoma de Buenos Aires</administrativearea>
+      <postalcode></postalcode>
+      <country>ar</country>
+    </contactAddress>
+    <name>Area Información</name>
+    <organization>Unidad de Sistemas de Información Geográfica - Dirección General de Ciencias de la Información - Subsecretaría de Ciudad Inteligente - Ministerio de Educación e Innovación - Gobierno de la Ciudad Autónoma de Buenos Aires</organization>
+    <position></position>
+    <voice>5030-9200 int. 2243</voice>
+    <fax></fax>
+    <email>usig_info@buenosaires.gob.ar</email>
+    <role></role>
+  </contact>
+  <links>
+    <link size="" description="" name="Shapefile, dxf" type="Local Area Network" mimeType="" format="" url="http://mapa.buenosaires.gov.ar  -  http://mapas.usig.buenosaires.gov.ar/"/>
+  </links>
+  <history>Los espacios verdes fueron digitalizados en base a la restitución del vuelo aerofotogramétrico del año 1997. La actualización corresponde al año 2004 en base a Imagen Satelital Quick Bird de dicho año y datos del Nomenclador de Espacios Públicos de la Dirección General de Espacios Verdes. El shape original de Espacios Verdes contemplaba la totalidad de los mismos, de allí se realizó una selección para crear dos capas por separado de acuerdo al tratamiento administrativo de cada uno (público-privado), resultando este shape de Espacios Verdes Públicos y otra capa con los Privados. En Marzo de 2010 se realizaron algunas correcciones mínimas en base a la Imagen Satelital Quick Bird de Septiembre de 2009, respecto a la apertura de calles nuevas y de nuevos edificios. Además se unificaron los polígonos pertenecientes a cada espacio verde en base a su denominación, quedando un registro multiparte para cada espacio verde. Nuevas actualizaciones en Junio de 2011 según la Apertura del Parque de la Memoria / Monumento a las Víctimas de Terrorismo de Estado Actualización en Septiembre de 2011 del nombre de la Ex Plaza Aramburu por el de Plaza Del Ángel Gris según Ley 3202 publicada en el Boletín Oficial 3286 del 26/10/2009 Julio 2013: Se eliminaron algunos canteros centrales correspondientes a la traza del nuevo metrobús de la av. 9 de Julio. Durante 2014 se realizó la actualización de los mismos a través de la redigitalización y corrección de espacios nuevos: corrección de nombres, datos, de digitalización, de nuevos espacios, borrado de espacios inexistentes. Para esta tarea se utilizó la fotografía satelital 2013 de la Secretaría de Planeamiento como así también la búsqueda en fuentes alternativas y páginas oficiales de Gobierno. También se actualizaron los datos de Padrinazgo a Marzo de 2014 brindados por la Dirección General de Espacios Verdes (puntos de contacto: Christian Perret (cperret@buenosaires.gob.ar) y Teresita Segret (teresitasegret@gmail.com)). Todos los registros que fueron modificados y/o agregados por USIG están especificados en el Campo Observaciones Se realizó durante todo el segundo semestre de 2015 se realizó una actualización de espacios verdes según las modificaciones tanto gráficas como de nombres. En Septiembre de 2016 se agregó un campo ID (id_ev_pub) que será mantenido como campo único e identificador y que conservará desde entonces un valor para cada registro y se conservará en el tiempo. En Diciembre de 2016 se agregó al campo "CLASIFICAC" la categoría "PATIO DE JUEGOS INCLUSIVO" para denominar a los espacios, plazas o patios recreativos dentro de las zonas vulnerables y villas. El pedido vino de parte de la Subsecretaría de Hábitat e Inclusión debido a los temas legales por los cuales no puede denominarse oficialmente ese espacio como una PLAZA. Esto puede parecer contradictorio ya que algunos de esos lugares pueden llamarse, por ejemplo, "Plaza Villa Machete", pero sin embargo, oficialmente no tienen la categoría de PLAZA, pese a que el nombre destinado, no oficialmente, sea ése. En Marzo de 2017 se asignó a un sector del Parque Roca el nombre Parque Natural Lago Lugano según la Inauguración del mismo (sector Sudoeste del mismo). Durante los Meses de Junio y Julio de 2017 se llevó a cabo un chequeo y actualización de datos y de espacios verdes al contrastar con las bases de comunales de la Dirección Gral de Espacios Verdes de la Secretaría de Descentralización donde figuraban todos las plazas, plazoletas, canteros, patios y jardines de cada comuna. A su vez, se recibieron bases y listados de Mantenimiento, Revalorización y Puesta en Valor de espacios, por lo que ello también se utilizó para actualizar la información. Se generaron campos nuevos de datos en los que se plasmó esa información. En los meses de Julio y Agosto de 2017 se realizó un chequeo y actualización de datos y de digitalizaciones según el registro de la Dirección General de Espacios Verdes de la Secretaría de Comunicación http://www.buenosaires.gob.ar/jefaturadegabinete/secretariadedescentralizacion/obras-y-mantenimiento-comunal/espacios-verdes/registro-de-espacios-verdes Durante 2019, con la inauguración del Paseo ddel Bajo, la reestruccturación de la traza de las Av Paseo Colón y Leandro Alem detrás de la Casa Rosada, se llevaron a cabo modificaciones pertinentes por dicha zona Durante el año 2020 se recibieron datos e información de la Dirección General de Regeneración Urbana - Subsecretaría de Paisaje Urbano - Ministerio de Espacio Público e Higiene Urbana que se utilizaron para completar, chequear y redigitalizar los datos existentes. Actualizaciones varias sobre obras en la Ciudad y sobre información existente de distimtas fuentes. En Agosto de 2022, se agregó el Campo "CODIGO" ya que se comprobó que un servicio tomaba ese campo, que en realidad contenía el "IDEPUB", por lo que se creó dicho campo con esa información, para comprobar si efectivamente Durante fines del año 2022 y los primeros meses del 2023, se llevó a cabo un trabajo conjunto con la DG Regeneración Urbana en el cual se detectaron y diferenciaron sectores privados que figuraban en la capa de espacios verdes públicos. Se llevó a cabo esa distinción y se cargaron nuevos espacios verdes privados "dentro de lo que antes eran sectores públicos". Además, en concordancia con ese trabajo, se generaron nuevos campos en los que se indica el tipo de acceso al espacio verde público, indicando si el mismo es de acceso libre total, restringido por horarios, con accesos públicos y privados, o de acceso restringido, como en el caso del Parque Colón que se encuentra dentro de la parcela de la Casa Rosada o el Parque de la Raza/Aeropuerto, lugares a los cuales no tiene acceso el público en general. Actualización según publicaciones en Boletín Oficial y modificaciones que se llevaron a cabo: Febreo de 2023. Para muchas de estas actualizaciones se tomaron la Fotografía Aérea 2021 y otras imágenes satelitales usadas desde servicios y actualizadas a la fecha. Última actualización Diciembre 2023 DESCRIPCION DE CAMPOS ID_EV_PUB TIPO: Numérico (12) DESCRIPCION: Identificador único de cada registro asignado por USIG y que se mantendrá a través del tiempo. NOMBRE TIPO: Texto (254) DESCRIPCION: Nombre del Espacio Verde simplificado NOMBRE_EV TIPO: Texto (254) DESCRIPCION: Nombre del Espacio Verde oficial CLASIFICAC TIPO: Texto (254) DESCRIPCION: Tipo de espacio verde según Nomenclador de Espacios Verdes incluyendo otras fuentes (Parque, Plaza, Plazoleta, Cantero Central, etc) PATIO_DE_J TIPO: Texto (254) DESCRIPCION: Posesión de patio de juegos APADRINADA TIPO: Texto (254) DESCRIPCIÓN: Si está apadrinada, nombre del padrino OBSERVACIO TIPO: Texto (254) DESCRIPCIÓN: Observaciones acerca del Espacio verde o de su digitalización o datos FUENTE_GEO TIPO: Texto (254) DESCRIPCION: Fuente de la digitalización del espacio verde FUENTE_INS TIPO: Texto (254) DESCRIPCION: Fuente de la toma de los atributos antes mencionados UBICACION TIPO: Texto (254) DESCRIPCIÓN: Localización DECRETO TIPO: Texto (254) DESCRIPCION: Número de decreto de reconocimiento FECHA DECRETO TIPO: Texto (254) DESCRIPCION: Fecha del decreto de reconocimiento ORDENANZA TIPO: Texto (254) DESCRIPCION: Número de Ordenanza FECHA ORDENANZA TIPO: Texto (254) DESCRIPCION: Fecha de Ordenanza BOLETIN_OF TIPO: Texto (254) DESCRIPCION: Boletín Oficial FECHA BOLE TIPO: Texto (254) DESCRIPCION: Fecha del Boletín Oficial BARRIO TIPO: Texto (50) DESCRIPCIÓN: Barrio de pertenencia COMUNA TIPO: Numérico (19) DESCRIPCIÓN: Comuna de pertenencia FECH_PADRI TIPO: Texto (50) DESCRIPCION: Fecha de inicio del Convenio de Padrinazgo VIG_PADRI TIPO: Texto (50) DESCRIPCION: Fecha de caducidad del Convenio de Padrinazgo ALC_CONVEN TIPO: Texto (250) DESCRIPCION: Alcance de las tareas, acciones y labores expresadas en el Convenio de Padrinazgo NOM_MAPA TIPO: Texto (250) DESCRIPCION: Campo con Nombre del registro utilizado para etiquetar. Posee el tipo de registro (Pza., Parque, Plzta, etc) más el nombre abreviado. ID_EV_PUB TIPO: Numérico (9) DESCRIPCION: Número de Identificador único de espacio verde público que se conservará a través del tiempo AREA TIPO: Numérico (16) DESCRIPCION: Área abarcada por el espacio verde expresada en metros cuadrados PERIMETER TIPO: Numérico (16) DESCRIPCIÓN: Área abarcada por el espacio verde expresada en metros DGEV_PADRI TIPO: Texto (75) DESCRIPCIÓN: Indica los espacios verdes que la Dirección Gral de Espacios Verdes quiso remarcar para apadrinar durante el 2017 (Mayo). Pueden ser lugares no apadrinados y otros que se quiere revalidar el padrinazgo. Info enviada por Micaela Raffin (Secretaría de Descentralización - Jefatura de Gabinete) MANT_2017 TIPO: Texto (75) DESCRIPCIÓN: Espacios que tuvieron intervenciones, mantenimiento y revalorización durante el 2016 y 2017. Info enviada en Junio 2017 por Comunicación y Contenidos de la Secretaría de Descentralización (Jennifer Cohn). TAREAS TIPO: Texto (254) DESCRIPCIÓN: Tareas realizadas durante el mantenimiento y revalorización mencionada en el campo anterior ESTADO TIPO: Texto (130) DESCRIPCIÓN: Estado de las Tareas de mantenimiento y revalorización (a Junio 2017) SUP_TOTAL TIPO: Numérico (12) DESCRIPCIÓN: Superficie total del espacio intervenido en las tareas antes mencionadas. Puede incluir espacio verde y no verde. Expresado en metros cuadrados. CANIL TIPO: Texto (50) DESCRIPCIÓN: Indica si el espacio cuenta o no con Canil. Información enviada por Secretaría de Descentralización en Mayo de 2017 POSTA_AERO TIPO: Texto (75) DESCRIPCIÓN: Indica si el espacio cuenta o no con posta aeróbica. Información enviada por Secretaría de Descentralización en Mayo de 2017 REJA TIPO: Texto (50) DESCRIPCIÓN: Idica si tiene o no Reja ese espacio verde. Información parcial ya que fue tomada de uno de los Relevamientos del 2017 para fines específicos. No abarca todos los espacios verdes HOR_INVIERNO TIPO: Texto (254) DESCRIPCIÓN: Indica el Horario de apertura de las rejas y puertas en la temorada de Invierno (Año 2017) HOR_VERANO TIPO: Texto (254) DESCRIPCIÓN: Indica el Horario de apertura de las rejas y puertas en la temorada de Verano (Año 2017) OBS_REJA TIPO: Texto (254) DESCRIPCIÓN: Observaciones sobre las rejas NOM_PERSON TIPO: Texto (50) DESCRIPCIÓN: Indica si tiene o no Nombre de Persona ese espacio GEN_PERS TIPO: Texto (150) DESCRIPCIÓN: Indica el Género (Masculino o Femenino) del Nombre del espacio verde OBS_PERS TIPO: Texto (254) DESCRIPCIÓN: Observaciones sobre el Nombre de la Plaza y su especificación con el género CODIGO TIPO: Numérico (10) DESCRIPCIÓN: Indica el código de Espacio Verde, que es el mismo que el "IDEVPUB". Este campo se agregó porque fue tomado en un servicio, TIPO_ACCE TIPO: Texto (250) DESCRIPCIÓN: Indica el tipo de acceso al espacio verde público (si es totalmente llibre, de acceso restringido, con horario limitado o de zonas mixtas). TIPO_ACCE_C TIPO: Numérico (10) DESCRIPCIÓN: Indica el tipo de acceso al espacio verde público diferenciado con un código numérico.</history>
+  <dates>
+    <date value="2002-12-04T00:00:00" type="Created"/>
+    <date value="2023-12-21T00:00:00" type="Published"/>
+    <date value="2023-12-21T00:00:00" type="Revised"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">La información deberá ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La información suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotación del diseño y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la información presentada podrá ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgación científica, y siempre que se aclare la fuente. La utilización de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</constraints>
+  <constraints type="Limitaciones de uso">La información deberá ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La información suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotación del diseño y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la información presentada podrá ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgación científica, y siempre que se aclare la fuente. La utilización de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</constraints>
+  <constraints type="Limitaciones de uso">La información deberá ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La información suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotación del diseño y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la información presentada podrá ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgación científica, y siempre que se aclare la fuente. La utilización de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</constraints>
+  <constraints type="Acceso">REQUIRED: Restrictions and legal prerequisites for accessing the data set.</constraints>
+  <rights></rights>
+  <rights></rights>
+  <rights></rights>
+  <rights>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial miny="91536.04136099999595899" dimensions="2" crs="EPSG:4326" minz="0" maxy="111392.84513899999728892" maxx="111323.7619330000015907" maxz="0" minx="93723.43979899999976624"/>
+    <temporal>
+      <period>
+        <start>2023-12-21T03:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
