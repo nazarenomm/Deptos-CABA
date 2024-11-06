@@ -9,13 +9,12 @@ Evaluación y validación del modelo para verificar la precisión y confiabilida
 2. Selección de metodología
 Análisis exploratorio:
 
-Herramientas: Python (geopandas, matplotlib) y/o QGIS para visualización espacial.
+Herramientas: Python (pykrige, sklearn, geopandas, matplotlib) y QGIS para visualización espacial.
 Datos: Dataset de precios de departamentos en CABA, con variables de ubicación y atributos físicos del inmueble. Datasets de ubicación de estaciones de subtes, de trenes, de colectivos.
 
-Modelo: Kriging universal.
+Modelo: Kriging universal / Kriging Regression.
 Implementación: QGIS (con plugins como SAGA GIS), o Python (pykrige). Este método se basa en una interpolación geoestadística con covariables para ajustar el modelo espacialmente a partir de las covariables seleccionadas.
 Covariables: Distancia a estaciones de subte, cantidad de baños y variables adicionales de infraestructura urbana.
-
 
 Evaluación del modelo:
 Herramientas: Python (scikit-learn para métricas de error y/u otros modelos), QGIS para visualización de errores de predicción.
