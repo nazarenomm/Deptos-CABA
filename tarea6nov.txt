@@ -1,0 +1,29 @@
+1. Definición de objetivos
+Objetivo general: Predecir el valor de venta de departamentos en CABA utilizando kriging universal, incorporando variables adicionales (covariables) como la cantidad de baños, la cercanía a estaciones de subte y otras características relevantes del entorno urbano.
+
+Objetivos específicos:
+
+Análisis exploratorio de los datos de precios de departamentos y covariables, identificando relaciones potenciales entre ellas.
+Implementación de un modelo de kriging universal utilizando las covariables seleccionadas para generar una interpolación espacial del precio de los departamentos.
+Evaluación y validación del modelo para verificar la precisión y confiabilidad de las predicciones, comparando con datos conocidos o datos de prueba.
+2. Selección de metodología
+Análisis exploratorio:
+
+Herramientas: Python (pandas, matplotlib, seaborn) o QGIS para visualización espacial inicial.
+Datos: Dataset de precios de departamentos en CABA, con variables de ubicación y atributos físicos del inmueble.
+Objetivo: Identificar las distribuciones de precios y patrones espaciales que puedan ayudar a definir la estructura del modelo.
+Kriging universal:
+
+Modelo: Kriging universal (como se define en bibliografía de geoestadística, como "Geostatistics for Environmental Scientists" de Webster y Oliver).
+Implementación: QGIS (con plugins como SAGA GIS), R (gstat), o Python (pykrige). Este método se basa en una interpolación geoestadística con covariables para ajustar el modelo espacialmente a partir de las covariables seleccionadas.
+Covariables: Distancia a estaciones de subte (GIS), cantidad de baños y variables adicionales de infraestructura urbana.
+Evaluación del modelo:
+
+Herramientas: Python (scikit-learn para métricas de error: RMSE, MAE), QGIS para visualización de errores de predicción.
+Validación cruzada para verificar la precisión de las predicciones.
+3. Recolección de datasets
+Dataset de precios de departamentos en CABA: Fuentes posibles como la Dirección General de Estadística y Censos de CABA o portales inmobiliarios. Verifica disponibilidad y calidad.
+Covariables:
+Distancia a estaciones de subte: Descargar datos de estaciones de subte en CABA de portales de datos abiertos (ej. Datos Abiertos de la Ciudad de Buenos Aires).
+Atributos de infraestructura (ej. parques cercanos, centros comerciales): También pueden descargarse de portales de datos abiertos o de OpenStreetMap.
+Pruebas de procesamiento: Asegúrate de que todos los datos tengan el mismo sistema de referencia espacial y están listos para cargarse en QGIS o Python. Esto te permitirá evaluar si puedes implementar el análisis sin problemas adicionales.
